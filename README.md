@@ -1,9 +1,10 @@
-## Hi, Welcome to Jonathan Ma's github,
+## Hi, Welcome to Jonathan Ma's GitHub
 
-#### I'm a materials engineer by trade but a curious person at heart. 
+#### I'm a engineer by trade but a curious person at heart. 
 
-#### My git hub is more or less an anthology of codes, consisting of a various project over different stages of my life. From Monte Carlo simulations to scripts I use to streamline Quantum chemistry computations to a pet project where I wrote an app because I needed to find a spot to park my bike. I did everything from AWS backend to graphics design.
+#### Through my life I have accumulated an anthology of codes, consisting of a various project over different stages of my life. From Monte Carlo simulations to scripts for stramlining Quantum chemistry computations, to a pet project where I wrote an app because I needed to find a spot to park my bike.
 
-- #### In the [the Monte Carlo Electron Simulation](https://github.com/jonhsma/CXRO_ElectronInteractions), I used SIMD matlab enabled linear speed up.
-- #### I also participated in the open source development of [Openllemetry](https://github.com/jonhsma/openllmetry).
-- #### In case it's useful to somebody, there are scripts for [parsing Q-Chem data](https://github.com/jonhsma/QChem-analytics) and [managing HPC](https://github.com/jonhsma/LRC-MISC)
+- #### In this [the Monte Carlo Electron Simulation](https://github.com/jonhsma/CXRO_ElectronInteractions), I used SIMD matlab enabled linear speed up. As we know, electron scattering is a probablistic process, so it's vital to simulate multiple initial conditions in parallel to obtain statistically significat results.
+- #### I also participated in the open source development of [Openllemetry](https://github.com/jonhsma/openllmetry). As we know, we're increasingly reliant on AI in our daily lives. As we all know, foundation model training requires a lot of resources and time. Therefore, for most of us, we use services from large providers through their REST APIs. However, as our AI stacks become more complicated, monitoring becomes harder. This project, built upon Open-tellemetry, provides a platform to monitor API calls. It provides statistics on usange and monitors the health of services used.
+- #### In case it's useful to somebody, there are scripts for [parsing Q-Chem data](https://github.com/jonhsma/QChem-analytics) and [managing HPC](https://github.com/jonhsma/LRC-MISC). For most quantum chemistry calculations, input and outputs are stored as text files. More often than not, multiple initial conditions are used. These scripts enable the automatic generation of input files and parsing of output files, eliminating human errors. On top of that, workload automation indirectly enabled the exploration of larger parameter spaces, leading to stronger statistical conclusions.
+- #### My first foray into [Java, async programming and AWS](https://github.com/jonhsma/Bike-a-Spot_release) is this app called Bike-a-Spot. In a nutshell, it's a map app that displays bike rack locations. The locations of bike racks are stored in AWS. The database has to be on the cloud as bike rack locations are updated from time to time. The database can handle simple mathematical quiries. By incorporating geometric constrains in the queires, the downstream data packet size is minimzed, which in turn decreases the response time.
